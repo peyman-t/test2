@@ -11,7 +11,7 @@ const Counter = () => {
     <div className="p-4 max-w-sm mx-auto bg-white rounded-xl shadow-md space-y-2">
       <p className="text-xl font-semibold">Count: {count}</p>
       <button
-        onClick={() => setCount(count + 2)}
+        onClick={() => setCount(count + 3)}
         className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
       >
         Increment
